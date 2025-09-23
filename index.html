@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica OdontoSaúde - Cuidando do seu sorriso</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-tooth"></i>
+                <span>OdontoSaúde</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Cuidando do seu sorriso com excelência</h1>
+                <p>Tratamentos odontológicos modernos e personalizados para toda a família</p>
+                <button class="cta-button" onclick="scrollToSection('contato')">
+                    Agendar Consulta
+                </button>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-user-md"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-tooth"></i>
+                    <h3>Clínica Geral</h3>
+                    <p>Consultas, limpeza, restaurações e tratamentos preventivos</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-smile"></i>
+                    <h3>Ortodontia</h3>
+                    <p>Aparelhos fixos e móveis para alinhamento dental</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-gem"></i>
+                    <h3>Estética Dental</h3>
+                    <p>Clareamento, facetas e harmonização do sorriso</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Implantodontia</h3>
+                    <p>Implantes dentários e próteses fixas</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-child"></i>
+                    <h3>Odontopediatria</h3>
+                    <p>Cuidados especializados para crianças</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-procedures"></i>
+                    <h3>Cirurgia Oral</h3>
+                    <p>Extrações e procedimentos cirúrgicos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre a Clínica OdontoSaúde</h2>
+                    <p>Com mais de 15 anos de experiência, nossa clínica oferece tratamentos odontológicos de qualidade, utilizando tecnologia de ponta e uma equipe altamente qualificada.</p>
+                    <p>Nosso compromisso é proporcionar um atendimento humanizado e personalizado, garantindo o bem-estar e a satisfação de nossos pacientes.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Pacientes Atendidos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Satisfação dos Pacientes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-clinic-medical"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua das Flores, 123<br>Centro - São Paulo, SP</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(11) 3456-7890<br>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-mail</h3>
+                            <p>contato@odontosaude.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="submitForm(event)">
+                    <div class="form-group">
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="servico" name="servico" required>
+                            <option value="">Selecione um serviço</option>
+                            <option value="clinica-geral">Clínica Geral</option>
+                            <option value="ortodontia">Ortodontia</option>
+                            <option value="estetica">Estética Dental</option>
+                            <option value="implantodontia">Implantodontia</option>
+                            <option value="odontopediatria">Odontopediatria</option>
+                            <option value="cirurgia">Cirurgia Oral</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-tooth"></i>
+                        <span>OdontoSaúde</span>
+                    </div>
+                    <p>Cuidando do seu sorriso com excelência e dedicação há mais de 15 anos.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Clínica OdontoSaúde. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

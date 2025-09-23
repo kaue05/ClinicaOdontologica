@@ -1,0 +1,49 @@
+SISTEMA DE LOG DE ERROS - CLÍNICA ODONTOSAÚDE
+==============================================
+
+Este arquivo serve como documentação para o sistema de log de erros implementado no site.
+
+TIPOS DE ERROS MONITORADOS:
+---------------------------
+1. Erros de envio de formulário
+2. Erros de validação de dados
+3. Erros de JavaScript em geral
+4. Problemas de conectividade
+
+LOCALIZAÇÃO DOS LOGS:
+--------------------
+- Os erros são salvos no localStorage do navegador
+- Chave: 'errorLog'
+- Formato: Array de objetos JSON
+
+ESTRUTURA DO LOG DE ERRO:
+------------------------
+{
+  "timestamp": "2024-01-15T10:30:00.000Z",
+  "message": "Descrição do erro",
+  "error": "Detalhes técnicos do erro",
+  "userAgent": "Informações do navegador",
+  "url": "URL onde ocorreu o erro"
+}
+
+COMO ACESSAR OS LOGS:
+--------------------
+1. Abra o console do navegador (F12)
+2. Digite: JSON.parse(localStorage.getItem('errorLog'))
+3. Pressione Enter para ver todos os erros registrados
+
+COMO LIMPAR OS LOGS:
+-------------------
+localStorage.removeItem('errorLog')
+
+MONITORAMENTO RECOMENDADO:
+-------------------------
+- Verificar logs semanalmente
+- Analisar padrões de erro
+- Implementar correções conforme necessário
+
+CONTATO TÉCNICO:
+---------------
+Para suporte técnico, entre em contato com o desenvolvedor responsável.
+
+ÚLTIMA ATUALIZAÇÃO: Janeiro 2024
