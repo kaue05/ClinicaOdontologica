@@ -26,6 +26,13 @@ Site institucional completo para clínicas odontológicas, com design profission
 
 ```
 clinic-website/
+├── assets
+│   └── images
+│   │   └── banner.webp
+│   │   └── clinica.png
+│   │   └── consultorio.jpg
+│   │   └── consulgorio2.webp
+│   │   └── recepcao.jpg
 ├── index.html          # Página principal
 ├── styles.css          # Estilos CSS
 ├── script.js           # Funcionalidades JavaScript
