@@ -23,7 +23,7 @@
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
-            <button class="menu-toggle" onclick="toggleMenu()">
+            <button title="menu" class="menu-toggle" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
@@ -111,7 +111,8 @@
                     </div>
                 </div>
                 <div class="about-image">
-                    <i class="fas fa-clinic-medical"></i>
+                    <!-- <i class="fas fa-clinic-medical"></i> -->
+                    <img src="./assets/images/clinica.png" class="banner-incial" alt="Odontologo">
                 </div>
             </div>
         </div>
@@ -163,7 +164,7 @@
                         <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" required>
                     </div>
                     <div class="form-group">
-                        <select id="servico" name="servico" required>
+                        <select title="Selecione um serviço" id="servico" name="servico" required>
                             <option value="">Selecione um serviço</option>
                             <option value="clinica-geral">Clínica Geral</option>
                             <option value="ortodontia">Ortodontia</option>
