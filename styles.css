@@ -190,6 +190,23 @@ body {
     color: #666;
 }
 
+/* Galery */
+.galeria {
+    background-color: #2c5aa0;
+    padding: 30px 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+.galeria img{
+    width: 100%;
+}
+
+.principal {
+    width: 200%;;
+}
+
 /* About */
 .about {
     padding: 80px 0;
