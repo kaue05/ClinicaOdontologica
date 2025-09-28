@@ -27,9 +27,13 @@ Site institucional completo para clínicas odontológicas, com design profission
 \`\`\`
 clinic-website/
 ├── index.html          # Página principal
+
 ├── styles.css          # Estilos CSS
+
 ├── script.js           # Funcionalidades JavaScript
+
 ├── erro.txt            # Sistema de log de erros
+
 └── README.md           # Documentação
 \`\`\`
 
