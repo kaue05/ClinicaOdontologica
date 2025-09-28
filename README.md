@@ -26,6 +26,7 @@ Site institucional completo para clínicas odontológicas, com design profission
 
 \`\`\`
 clinic-website/
+
 ├── index.html          # Página principal
 
 ├── styles.css          # Estilos CSS
@@ -160,4 +161,4 @@ Este projeto é de uso livre para clínicas odontológicas.
 
 ---
 
-**Desenvolvido com ❤️ para clínicas odontológicas modernas**
+**Desenvolvido para clínicas odontológicas modernas**
