@@ -25,19 +25,19 @@ Site institucional completo para clínicas odontológicas, com design profission
 ## 📁 Estrutura de Arquivos
 
 ```
-clinic-website/
+clinicaodontologica/
 ├── assets
-│   └── images
-│   │   └── banner.webp
-│   │   └── clinica.png
-│   │   └── consultorio.jpg
-│   │   └── consulgorio2.webp
+│   ├── images
+│   │   ├── banner.webp
+│   │   ├── clinica.png
+│   │   ├── consultorio.jpg
+│   │   ├── consultorio2.webp
 │   │   └── recepcao.jpg
-├── index.html          # Página principal
-├── styles.css          # Estilos CSS
-├── script.js           # Funcionalidades JavaScript
 ├── erro.txt            # Sistema de log de erros
-└── README.md           # Documentação
+├── index.html          # Página principal
+├── README.md           # Documentação
+├── script.js           # Funcionalidades JavaScript
+└── styles.css          # Estilos CSS
 ```
 
 ## 🛠️ Tecnologias Utilizadas
