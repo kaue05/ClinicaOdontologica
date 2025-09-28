@@ -1,4 +1,4 @@
-SISTEMA DE LOG DE ERROS - CLÍNICA ODONTOSAÚDE
+SISTEMA DE LOG DE ERROS - CLÍNICA ODONTOLÓGICA
 ==============================================
 
 Este arquivo serve como documentação para o sistema de log de erros implementado no site.
@@ -46,4 +46,4 @@ CONTATO TÉCNICO:
 ---------------
 Para suporte técnico, entre em contato com o desenvolvedor responsável.
 
-ÚLTIMA ATUALIZAÇÃO: Janeiro 2024
+ÚLTIMA ATUALIZAÇÃO: Setembro 2025
