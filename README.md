@@ -75,10 +75,10 @@ O site é totalmente responsivo com breakpoints:
 ## 🔧 Como Usar
 
 1. **Instalação**:
-   \`\`\`bash
+   ```bash
    # Clone ou baixe os arquivos
    # Não há dependências externas
-   \`\`\`
+   ```
 
 2. **Execução**:
    - Abra o arquivo `index.html` em qualquer navegador moderno
@@ -98,10 +98,10 @@ O arquivo `erro.txt` documenta o sistema de monitoramento implementado:
 - Timestamps para análise
 
 ### Como Acessar os Logs
-\`\`\`javascript
+```javascript
 // No console do navegador
 exportLogs() // Retorna todos os logs da sessão
-\`\`\`
+```
 
 ## 🔍 Funcionalidades Detalhadas
 
